@@ -1,0 +1,160 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    padding:2.5rem 0
+  }
+  
+  .heading span{
+    font-size: 3.5rem;
+    background:rgba(162, 73, 9, 0.539);
+    color:whitesmoke;
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+  }
+  
+  .heading span.space{
+    background:none;
+  }
+
+.hero {
+    background-image: url("images/bakery-background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: black;
+    text-align: center;
+}
+nav {
+    background-color: darkorange;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 40px;
+    width: 300px;
+    margin-left: 470px;
+    margin-top: -50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    font-size: 20px;
+    
+}
+.nav a:hover{
+    color:var(--orange);
+  }
+  
+nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:rgb(9, 6, 2);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+nav ul li:hover::after{
+    width: 90%;
+    
+}
+.hero img {
+    width: 150px;
+    height: 140px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: #e0e0e0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.services .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+  }
+  
+  .services .box-container .box{
+    flex: 1 1 20rem;
+    border-radius: .5rem;
+    padding:1rem;
+    text-align: center;
+  }
+  
+  .services .box-container .box i{
+    padding:1rem;
+    font-size: 3rem;
+    color:var(--orange);
+  }
+  
+  .services .box-container .box h3{
+    font-size: 2rem;
+    color:#333;
+  }
+  
+  .services .box-container .box img{
+    width: 340px;
+    height: 290px;
+    padding:1rem 0;
+    border-radius: 30px;
+  }
+  
+  .services .box-container .box:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  }
+
+.testimonials {
+    border-top: 1;
+    text-align: center;
+    
+}
+footer{
+    text-align: center;
+}

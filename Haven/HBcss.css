@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+	background-color: lavenderblush;
+}
+/*website title*/
+.title {
+	text-align: center;
+	float: left;
+	color: black;
+	font-size: 30px;
+}
+/*website logo*/
+.logo {
+	width: 70px;
+	height: auto;
+	float: left;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+/*navigation bar*/
+nav ul{
+	float: right;
+}
+/*nav list style*/
+nav li {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+/*nav links*/
+nav a {
+	text-decoration: none;	
+	font-size: 29px;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 15px 20px;
+}
+nav a:hover {
+	color: deeppink;
+}
+/*link hover*/
+a:hover, #anchor:hover, #style:hover {
+	color: deeppink;
+}
+
+nav a.active {
+	color: deeppink;
+}
+
+.content {
+	clear: both;
+	background-image: url("images/A\ purple\ cupcak\ e9d9d06b-8132-40a1-ba72-2d988fab86df.png");
+	background-repeat: no-repeat;
+	width: 100%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid pink;
+	position: relative;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-size:cover;
+}
+/*Homepage CSS*/
+#about {
+	text-align: center;
+	background-color: lavenderblush;
+	width: 700px;
+	background-size: contain;
+	margin: auto;
+	padding: 5%;
+	position: relative;	
+	border-radius: 25px;
+	border: 2px solid darkviolet;
+}
+/*Homepage pictures*/
+.collage {	
+	width: 80%;
+	height: 400px;
+	margin: 5%;
+	border-radius: 25%;
+	border: 1px solid pink;
+}
+/*columns for homepage/weddings pic collage*/
+.column {
+	float: left;
+	width: 33.33%;	
+}
+/* Clearfix (clear floats) */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+/*menu page*/
+#menu {
+	text-align: center;
+	background-color: lavenderblush;
+	border-radius: 25px;
+	border: 2px solid darkviolet;
+	padding: 1%;
+	margin: 5% 10% 5% 10%;
+}
+.menuH2 {
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 250px;
+}
+h3 {
+	color: deeppink;
+	margin: 0;
+	padding: 0;
+}
+/*flavors row*/
+.column2 {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.column2 ul {
+	list-style-type: circle;
+	display: inline-block;
+	text-align: left;
+}
+/*macaron tower image*/
+#tower {
+	height: 300px;
+	width: 60%;
+	margin-right: 15%;
+}
+/*cake prices table*/
+table {
+	width: 80%;
+	margin-top: 1%;
+	margin-left: 10%;
+}
+th {
+	color: deeppink;
+}
+th, td {
+	padding: 10px;
+	border: 1px dashed pink;
+	
+}
+
+/*Weddings page CSS*/
+.collage2 {	
+	width: 80%;
+	height: 400px;
+	margin: 5%;
+	border-radius: 25%;
+	border: 1px solid pink;
+}
+#weddingInfo {
+	text-align: center;
+	background-color: lavenderblush;
+	width: 700px;
+	background-size: contain;
+	margin: auto;
+	padding: 5%;
+	position: relative;	
+	border-radius: 25px;
+	border: 2px solid darkviolet;
+}
+/*FAQ CSS*/
+.accordion {
+  background-color: lavenderblush;
+  cursor: pointer;
+  padding: 18px;
+  width: 90%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 16px;
+  font-family: cursive;
+  transition: 0.5s;
+}
+hr {
+	width: 90%;
+}
+.activeClick, .accordion:hover {
+  background-color: pink; 
+}
+
+.panel {
+  padding: 0 5% 0 5%;
+  display: none;
+  overflow: hidden;
+}
+
+/*footer*/
+footer {
+	margin: 3%;
+}
